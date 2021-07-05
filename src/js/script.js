@@ -16,7 +16,7 @@
       thisBooksList.renderInMenu();
       thisBooksList.initActions();
       // thisBooksList.determineRatingBgc();
-      thisBooksList.filterBooks();
+      // thisBooksList.filterBooks();
 
 
     }
@@ -123,7 +123,7 @@
     }
     // }
     determineRatingBgc(book){
-      const thisBooksList = this;
+      // const thisBooksList = this;
       // console.log(thisBooksList);
       let rating = book.rating;
       // console.log(rating);
