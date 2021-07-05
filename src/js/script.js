@@ -124,9 +124,9 @@
     // }
     determineRatingBgc(book){
       const thisBooksList = this;
-      // console.log(thisBooksList);
+      console.log(thisBooksList);
       let rating = book.rating;
-      console.log(rating)
+      console.log(rating);
       let background = '';
       if (rating < 6) {
         background = 'linear-gradient(to bottom,  #fefcea 0%, #f1da36 100%);';
