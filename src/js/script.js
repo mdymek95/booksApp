@@ -9,14 +9,11 @@
 
     constructor(){
       const thisBooksList = this;
-      // thisBooksList.favouriteBooks = [];
-      // thisBooksList.filters = [];
-      // thisBooksList.formFilters = document.querySelector('.filters');
+
       thisBooksList.getElements();
       thisBooksList.renderInMenu();
       thisBooksList.initActions();
-      // thisBooksList.determineRatingBgc();
-      // thisBooksList.filterBooks();
+      // thisBooksList.filterBooks();`
 
 
     }
